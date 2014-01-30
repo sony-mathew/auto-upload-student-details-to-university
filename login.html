@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Auto Submit Login</title>
+<meta charset="UTF-8" />
+<meta name="Designer" content="ynos1234">
+<meta name="Author" content="ynos1234">
+<link rel="stylesheet" type="text/css" href="css/login_reset.css">
+<link rel="stylesheet" type="text/css" href="css/login_structure.css">
+</head>
+
+<body>
+<form method="post" action="index.php" class="box login" enctype="multipart/form-data">
+	<fieldset class="boxBody">
+	  <div class="header"> Auto Submit Login</div>
+	  <label>Username</label>
+	  <input type="text" tabindex="1" name="user" placeholder="Username" required>
+	  <label>Password</label>
+	  <input type="password" name="pass" tabindex="2" placeholder="Password" required>
+	  <label for="file">Filename:</label>
+	  <input type="file" name="file" id="file">
+	</fieldset>
+	<footer>
+	  <label></label>
+	  <input type="submit" class="btnLogin" value="Login" tabindex="4">
+      <input type="hidden" name="login" value="1" />
+	</footer>
+</form>
+<footer id="main">
+  <a href="http://fastbits.in">ynos1234.</a>
+</footer>
+</body>
+</html>
